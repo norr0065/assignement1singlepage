@@ -35,6 +35,12 @@ body {
     background-repeat: no-repeat;   
 }
 
+.logo {
+    height: 10rem;
+    width: auto;
+    margin: .5rem 2%;    
+}
+
 .roadmap {
     margin: 0;
     overflow: hidden;
@@ -45,12 +51,6 @@ body {
     background-position: center center; 
     box-shadow: .2rem .4rem .4rem .2rem rgba(0, 0, 0, .8);
     border: .35rem;
-}
-    
-.logo {
-    height: 10rem;
-    width: auto;
-    margin: .5rem 2%;    
 }
 
 .dropcap:first-letter { 
@@ -71,7 +71,7 @@ small {
 }
 
 article {
-    margin: 3;
+    margin: 0;
     padding: 0 5%;
     overflow: hidden;
 }
@@ -93,7 +93,7 @@ h1 + p {
     font-size: 8rem;
     font-size: 1.5rem;
     line-height:inherit;
-    margin: 2;
+    margin: 2rem;
     padding: 0;
 }
 
